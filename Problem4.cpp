@@ -6,7 +6,7 @@ using namespace std;
 int tamanio( char c[])
 {
     int n=0;
-    while (c[n] =! '/0')
+    while (c[n] != '/0')
         n++;
     return n;
 }
